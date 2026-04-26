@@ -1,0 +1,218 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance & Mutual Fund Advisor</title>
+    <style>
+        /* CSS Styles for a Clean, Professional Look */
+        :root {
+            --primary-color: #003b5c; /* Trustworthy Navy Blue */
+            --secondary-color: #00a8e8; /* Accent Light Blue */
+            --bg-color: #f4f7f6;
+            --text-color: #333333;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #d1e8f5;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: -2rem auto 2rem;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .service-box {
+            background: #eef5f9;
+            padding: 1.5rem;
+            border-left: 4px solid var(--secondary-color);
+            border-radius: 4px;
+        }
+
+        .service-box h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        /* Contact & Location Flexbox */
+        .contact-location-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .contact-info, .location-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        ul.contact-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul.contact-list li {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .icon {
+            font-weight: bold;
+            color: var(--secondary-color);
+            display: inline-block;
+            width: 25px;
+        }
+
+        /* Map Placeholder */
+        .map-container {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            margin-top: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #222;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sandipan Roy</h1>
+        <p>Certified Insurance Advisor & AMFI Registered Mutual Fund Distributor</p>
+    </header>
+
+    <main class="container">
+        
+        <section class="card">
+            <h2>About Me</h2>
+            <p>With over 21 years of experience in the financial sector, my goal is to help individuals and families secure their future and grow their wealth. Whether you are looking for comprehensive health and life insurance coverage or looking to build a robust investment portfolio through Mutual Funds, I provide personalized financial solutions tailored to your unique goals.</p>
+        </section>
+
+        <section class="card">
+            <h2>Services Provided</h2>
+            <div class="services-grid">
+                
+                <div class="service-box">
+                    <h3>🛡️ Insurance Solutions</h3>
+                    <ul>
+                        <li><strong>Life Insurance:</strong> Term plans, Endowment plans, and ULIPs.</li>
+                        <li><strong>Health Insurance:</strong> Individual, Family Floater, and Senior Citizen plans.</li>
+                        <li><strong>General Insurance:</strong> Motor (Car/Bike), Home, and Travel Insurance.</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="service-box">
+                    <h3>📈 Wealth & Mutual Funds</h3>
+                    <ul>
+                        <li><strong>Systematic Investment Plans (SIP):</strong> Disciplined monthly wealth creation.</li>
+                        <li><strong>Lumpsum Investments:</strong> Strategic deployment of idle capital.</li>
+                        <li><strong>Tax Saving Funds (ELSS):</strong> Save tax under Section 80C while growing wealth.</li>
+                        <li><strong>Retirement & Child Future Planning:</strong> Goal-based mutual fund portfolios.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="contact-location-wrapper">
+                
+                <div class="contact-info">
+                    <h2>Mob-+919836241674    Email address-roysandipanlici2898@gmail.com</h2>
+                    <p>Ready to secure your financial future? Reach out to me today for a free consultation.</p>
+                    <ul class="contact-list">
+                        <li><span class="icon">📞</span> <strong>Phone:</strong> +919836241674</li>
+                        <li><span class="icon">📱</span> <strong>WhatsApp:</strong>+919836241674</li>
+                        <li><span class="icon">✉️</span> <strong>Email:</strong> roysandipanlici2898@gmail.com</li>
+                        <li><span class="icon">🕒</span> <strong>Hours:</strong> Monday - Sunday, 10:00 AM - 8:00 PM</li>
+                    </ul>
+                </div>
+
+                <div class="location-info">
+                    <h2>Office Location</h2>
+                    <ul class="contact-list">
+                        <li><span class="icon">📍</span> <strong>Address:</strong><br>
+                            Kuberpur Kalibari, Badu <br>
+                            Barasat <br>
+                              North 24 Parganas <br>
+                            West Bengal, PIN 700128
+                        </li>
+                    </ul>
+                    
+                    <div class="map-container">
+                        https://goo.gl/maps/xY7Beda8JAAGKryLA?g_st=am
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sandipan Roy Financial Services. All rights reserved.</p>
+        <p>Mutual Fund investments are subject to market risks, read all scheme related documents carefully.</p>
+    </footer>
+
+</body>
+</html>
